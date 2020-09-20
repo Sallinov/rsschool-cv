@@ -1,5 +1,3 @@
-***
-
 # Vladislav Sinitsa
 
 web developer
