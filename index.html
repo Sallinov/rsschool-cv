@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Sacramento&display=swap">
+	<link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta charset="utf-8">
+    <title>Vladislav Sinitsa</title>
+  </head>
+  <body>
+	<h1 class="header inverce">Vladislav Sinitsa</h1>
+	<p class="description inverce">web developer</p>
+	<div class="wraper">
+		<img class="avatar" src="img/Vlad_Sinitsa.jpg" alt="avatar">
+		<div class="contacts">
+			<h3>Contacts</h3>
+			<a href="https://www.facebook.com/profile.php?id=100003799963785">
+				<img src="img/facebook.png" alt="facebook">
+				Vladislav Sinitsa
+			</a>
+			<a href="tg://resolve?domain=Sallinov">
+				<img src="img/telegram.png" alt="telegram">
+				@sallinov
+			</a>
+			<a href="mailto:salinovciy@gmail.com">
+				<img src="img/gmail.png" alt="gmail">
+				uladzislau.sinitsa@gmail.com
+			</a>
+			<a href="skype:dsinitsa_11?chat">
+				<img src="img/skype.png" alt="skype">
+				dsinitsa_11
+			</a>
+			<a href="tel:+375292297034">
+				<img src="img/phone.png" alt="phone">
+				+375 (29) 229-70-34
+			</a>
+		</div>
+	</div>
+	<h3 class="inverce">About myself</h3>
+	<p class="paragraph inverce">My name Vlad Sinitsa, I’m 23 years old. I live in Belarus. I was study in technical university at city Brest. My profession is ingener for information processing. On free time I like listen musik and wolking with or without friends.</p>
+	<p class="paragraph inverce">My strengths is concentration, performance and friendliness. My first goal it is work with web tehnologies. Job eat into my time and I think that I can to work with modern technologis. I’m more time work with PHP language and I think that it old language. I’m started to learn frontend.</p>
+	<h3>Skills</h3>
+	<div class="wraper">
+    <ul class="skills-ul">
+      <li>HTML;</li>
+      <li onclick="toggle(this)">
+        CSS: ▿
+        <ul style="display: none;">
+          <li>SCSS;</li>
+          <li>SASS;</li>
+          <li>Less.</li>
+        </ul>
+      </li>
+      <li onclick="toggle(this)">
+        JavaScript: ▿
+        <ul style="display: none;">
+          <li>JQuery;</li>
+          <li>Vanilla JS.</li>
+        </ul>
+      </li>
+      <li onclick="toggle(this)">
+        PHP: ▿
+        <ul style="display: none;">
+          <li>Yii2;</li>
+          <li>Vanilla PHP.</li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="skills-ul">
+      <li>MySQL;</li>
+      <li onclick="toggle(this)">
+        Version control system: ▿
+        <ul style="display: none;">
+          <li>Bitbucket;</li>
+          <li>Github;</li>
+          <li>Gitlub.</li>
+        </ul>
+      </li>
+      <li onclick="toggle(this)">
+        Instruments: ▿
+        <ul style="display: none;">
+          <li>Openserver;</li>
+          <li>Navicat;</li>
+          <li>PhpStorm;</li>
+          <li>Atom;</li>
+          <li>NPM.</li>
+        </ul>
+      </li>
+      <li>Most popular UI frameworks.</li>
+    </ul>
+  </div>
+  <h3 class="inverce">Dev experience</h3>
+  <p class="paragraph inverce">
+    I worked one year in private company who have a 6 project at Yii2 (PHP framework). My tasks in that company was support and create new functions for projects.
+  </p>
+  <p class="paragraph inverce">
+    Now I’m working on a electronic medicine at Republic of Belarus. My company have a 4 developer. We’re working with old version PHP - 5.6.
+  </p>
+  <h3 class="mobile-hidden">Code example</h3>
+  <pre class="paragraph mobile-hidden">
+    $(document).ready(function() {
+      $("nav").append($("#filter > button").clone());
+      $("nav .mdc-button").addClass('btn-filter-menu');
+      $(".btn-filter-menu").hide();
+    });
+
+    $(window).scroll(function() {
+        $("html").scrollTop() > $("#filter > button").offset().top ?
+        $(".btn-filter-menu").show() :
+        $(".btn-filter-menu").hide();
+    });
+  </pre>
+  <h3 class="inverce-desctop-only">Education</h3>
+  <p class="paragraph inverce-desctop-only">
+    <b>PEI CBaR</b> (2012 - 2016) <b>technician programmer.</b>
+  </p>
+  <p class="paragraph inverce-desctop-only">
+    <b>BrSTU</b> (2016 - 2020) <b>ingener for information processing.</b>
+  </p>
+  <h3 class="mobile-inverce">English level</h3>
+  <p class="paragraph mobile-inverce">I think that I haven’t <b>A2</b> level. But my last teacher said taht I have this.</p>
+  <footer class="inverce-desctop-only">©Copyrighting by Sallinov | 2020 year</footer>
+  </body>
+</html>
