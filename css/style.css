@@ -55,7 +55,11 @@ p { text-indent: 25px; }
 }
 .example-ul a, 
 .example-ul > li { 
-	color: #144d54; 
+	color: #333;
+}
+.example-ul > li:hover,
+.example-ul a:hover{ 
+	color: #777;
 }
 .skills-ul > li,
 .example-ul > li {
