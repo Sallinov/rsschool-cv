@@ -57,6 +57,11 @@ p { text-indent: 25px; }
 .example-ul > li { 
 	color: #333;
 }
+.column {
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+		flex-direction: column;
+}
 .example-ul > li:hover,
 .example-ul a:hover{ 
 	color: #e0f2f1;
@@ -159,8 +164,7 @@ h3 {
 		height: 125px;
 		margin-top: 15px;
 	}
-	.wraper,
-	.column {
+	.wraper {
 		-webkit-flex-direction: column;
 		    -ms-flex-direction: column;
 		        flex-direction: column;
