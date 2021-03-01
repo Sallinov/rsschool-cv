@@ -159,7 +159,8 @@ h3 {
 		height: 125px;
 		margin-top: 15px;
 	}
-	.wraper {
+	.wraper,
+	.column {
 		-webkit-flex-direction: column;
 		    -ms-flex-direction: column;
 		        flex-direction: column;
