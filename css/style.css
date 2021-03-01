@@ -50,12 +50,12 @@ p { text-indent: 25px; }
 	background-color: #4f9a94;
 }
 .skills-ul { list-style: square; }
-.example a, 
-.example > li { 
+.example-ul a, 
+.example-ul > li { 
 	color: #144d54; 
 }
 .skills-ul > li,
-.example > li {
+.example-ul > li {
 	position: relative;
 	cursor: pointer;
 }
