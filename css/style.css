@@ -97,6 +97,10 @@ body,
 	margin: 5px 0;
 	color: #333;
 }
+.contacts > a:hover {
+ 	color: #fff;
+	text-shadow: 0 0 5px black;
+}
 .contacts > a > img {
 	width: 30px;
 	height: 30px;
