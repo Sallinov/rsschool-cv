@@ -53,6 +53,7 @@ p { text-indent: 25px; }
 .example-ul {
 	list-style: square; 
 }
+.skills-ul a,
 .example-ul a, 
 .example-ul > li { 
 	color: #333;
