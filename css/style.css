@@ -63,8 +63,9 @@ p { text-indent: 25px; }
 	    -ms-flex-direction: column;
 		flex-direction: column;
 }
-.example-ul > li:hover,
-.example-ul a:hover{ 
+.skills-ul a:hover,
+.example-ul a:hover,
+.example-ul > li:hover { 
 	color: #e0f2f1;
 }
 .skills-ul > li,
