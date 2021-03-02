@@ -124,8 +124,9 @@ body,
 	    -ms-justify-content: space-around;
 	        justify-content: space-around;
 }
-.header,
-h3 {
+h3, 
+h4,
+.header {
 	padding-top: 10px;
 }
 .description {
